@@ -1,5 +1,5 @@
 {
-    "name": "pungent",
+    "name": "AFJ Productions",
     "version": "2.0.0",
     "private": true,
     "scripts": {
@@ -8,7 +8,7 @@
         "start": "next start",
         "lint": "next lint"
     },
-    "author": "EnvyTheme.com",
+    "author": "A Film Junkie Productions",
     "license": "ISC",
     "dependencies": {
         "animate.css": "^4.1.1",
