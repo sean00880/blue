@@ -49,16 +49,7 @@ const StartupAgency2 = () => {
 
     
 
-   
-
-      <div className="pt-100">
-        <Newsletter />
-      </div>
-
-      <div className="ptb-100">
         <LatestNews />
-      </div>
-
       <CtaAreaTwo />
 
       <Footer />

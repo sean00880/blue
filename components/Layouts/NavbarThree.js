@@ -1,5 +1,5 @@
 import React from "react";
-import Link from "../../utils/ActiveLink";
+import {Link} from "react-scroll";
 
 const NavbarThree = () => {
   const [menu, setMenu] = React.useState(true);
@@ -64,7 +64,7 @@ const NavbarThree = () => {
                 </li>
 
                 <li className="nav-item">
-                  <Link href="/#services" scroll={true}>
+                  <Link to="services" smooth={true} spy={true} offset={-100}>
                     <a className="nav-link" onClick={(e) => e.preventDefault()}>
                       Services 
                     </a>
@@ -72,15 +72,16 @@ const NavbarThree = () => {
 
         
                 </li>
+                
 
                 <li className="nav-item">
-                  <Link href="/about" activeClassName="active">
+                  <Link to="pricing" smooth={true} spy={true} offset={-100}>
                     <a className="nav-link">Pricing</a>
                   </Link>
                 </li>
 
                 <li className="nav-item">
-                  <Link href="#">
+                  <Link to="process" smooth={true} spy={true} offset={-100}>
                     <a className="nav-link" onClick={(e) => e.preventDefault()}>
                       Process 
                     </a>
@@ -88,7 +89,7 @@ const NavbarThree = () => {
                 </li>
 
                 <li className="nav-item">
-                  <Link href="#">
+                  <Link to="faq" smooth={true} spy={true} offset={-100}>
                     <a className="nav-link" onClick={(e) => e.preventDefault()}>
                       FAQ 
                     </a>
@@ -98,7 +99,7 @@ const NavbarThree = () => {
                 </li>
 
                 <li className="nav-item">
-                  <Link href="#">
+                  <Link to="blog" smooth={true} spy={true} offset={-200}>
                     <a className="nav-link" onClick={(e) => e.preventDefault()}>
                       Blog 
                     </a>
@@ -134,14 +135,14 @@ const NavbarThree = () => {
                 </li>
 
                 <li className="nav-item">
-                  <Link href="/contact" activeClassName="active">
+                  <Link to="contact" smooth={true} spy={true} offset={50}>
                     <a className="nav-link">Contact Us</a>
                   </Link>
                 </li>
               </ul>
 
               <div className="others-options">
-                <Link href="/contact">
+                <Link to="/" smooth={true} spy={true} offset={50}>
                   <a className="btn btn-primary">Get Started</a>
                 </Link>
               </div>

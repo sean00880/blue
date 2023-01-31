@@ -4,10 +4,10 @@ import Link from "next/link";
 const LatestNews = () => {
   return (
     <>
-      <div className="blog-area ptb-110">
+      <div className="blog-area ptb-100" id="blog">
         <div className="container">
           <div className="section-title">
-            <h2>Latest News</h2>
+            <h2>AFJ Blog </h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.

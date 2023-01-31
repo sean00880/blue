@@ -17,9 +17,11 @@ const BestServices = () => {
                   <h2>Featured at AFJ Productions!</h2>
                   <div className="bar"></div>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Quis ipsum suspendisse ultrices gravida.
+                  A video production and creative media firm with headquarters in Northern Virginia, AFJ Productions provides a range of commercial video production services, including the creation of social media content, corporate interviews, and company branding videos. We are a group of producers and artists who want to realize your creative ideas. 
+                  
+<br /><br />
+
+                  You've come to the correct place if you're looking for a video production firm in the Washington, DC, and Northern Virginia area.
                   </p>
 
                   <img src="/images/women-with-table.png" alt="Women" />
@@ -65,7 +67,7 @@ const BestServices = () => {
                           viverra maecenas accumsan lacus vel facilisis.
                         </p>
 
-                        <Link href="#video" scroll={true}>
+                        <Link href="#video" >
                           <a className="read-more-btn">Read More</a>
                         </Link>
                       </div>

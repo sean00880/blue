@@ -3,7 +3,7 @@ import React from "react";
 const WorkProcess = () => {
   return (
     <>
-      <section className="work-process-area ptb-100">
+      <section className="work-process-area ptb-100" id="process">
         <div className="container">
           <div className="section-title">
             <h2>Our Work Process</h2>

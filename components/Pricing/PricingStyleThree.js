@@ -4,7 +4,7 @@ import Link from "next/link";
 const PricingStyleThree = () => {
   return (
     <>
-      <div className="pricing-area pt-100 pb-70 bg-f9f6f6">
+      <div className="pricing-area pt-100 pb-70 bg-f9f6f6" id="pricing">
         <div className="container">
           <div className="section-title">
             <h2>Pick Your Budget</h2>

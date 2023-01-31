@@ -10,7 +10,7 @@ const ServiceDetails = () => {
     <>
       <NavbarTwo />
 
-      <PageBanner pageTitle="Mobile App Development" BGImage="/images/page-banner1.jpg" />
+      <PageBanner pageTitle="Video Production" BGImage="/images/page-banner1.jpg" />
 
       <ServiceDetailsContent />
 

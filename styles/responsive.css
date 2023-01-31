@@ -45,15 +45,21 @@
     overflow-y: scroll;
     max-height: 70vh;
     padding-right: 15px;
+    align-items: center;
+    line-height: 6;
   }
   .navbar-area nav .navbar-nav::-webkit-scrollbar {
     width: 10px;
   }
   .navbar-area nav .navbar-nav::-webkit-scrollbar-track {
     background: #f1f1f1;
+    border-radius: 3vh;
+    padding:300px 0;
   }
   .navbar-area nav .navbar-nav::-webkit-scrollbar-thumb {
     background: #888;
+    border-radius: 3vh;
+    padding:100px 0;
   }
   .navbar-area nav .navbar-nav::-webkit-scrollbar-thumb:hover {
     background: #555;
@@ -448,7 +454,10 @@
     height: 55px;
     line-height: 60px;
     font-size: 20px;
+
   }
+
+
   .single-work-process h3 {
     font-size: 13px;
     margin-top: 15px;
@@ -1881,7 +1890,6 @@
   }
   .services-inner .services-section-title {
     max-width: unset;
-    padding-right: 0;
     margin-left: 0;
   }
   .services-inner .services-section-title h2 {
