@@ -19,9 +19,10 @@ const MarketingProcess = () => {
                 data-aos-delay="100"
               >
                 <img src="/images/digital-marketing/process1.png" alt="image" />
-                <h3>Contact</h3>
+                <h3>Marketing Plan</h3>
                 <p>
-                  Initiate contact by sumbitting a quote.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do
+                  eiusmod.
                 </p>
               </div>
             </div>
@@ -34,9 +35,10 @@ const MarketingProcess = () => {
                 data-aos-delay="200"
               >
                 <img src="/images/digital-marketing/process2.png" alt="image" />
-                <h3>Get Approved</h3>
+                <h3>Marketing Execution</h3>
                 <p>
-                Review, Approval, and Processing takes place.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do
+                  eiusmod.
                 </p>
               </div>
             </div>
@@ -49,7 +51,7 @@ const MarketingProcess = () => {
                 data-aos-delay="300"
               >
                 <img src="/images/digital-marketing/process3.png" alt="image" />
-                <h3>Enjoy the Benefits</h3>
+                <h3>Growth & Scale</h3>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do
                   eiusmod.

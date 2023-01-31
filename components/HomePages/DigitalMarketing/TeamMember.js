@@ -7,7 +7,7 @@ const TeamMember = () => {
         <div className="container">
           <div className="section-title">
             <span className="sub-title">MEET THE TEAM</span>
-            <h2>Introducing The Key Members Of Our Team</h2>
+            <h2>Meet Members Of Our Exclusive Team For Startup Business</h2>
           </div>
 
           <div className="row justify-content-center">
@@ -24,7 +24,7 @@ const TeamMember = () => {
                 />
 
                 <div className="content">
-                  <h3>Sahra Yusef</h3>
+                  <h3>Mary K. Austin</h3>
                   <span>CEO</span>
                   <ul className="social">
                     <li>
@@ -60,8 +60,8 @@ const TeamMember = () => {
                 />
 
                 <div className="content">
-                  <h3>Saad Mansur</h3>
-                  <span>Business Manager</span>
+                  <h3>Christopher Lindsey</h3>
+                  <span>Business Consultant</span>
                   <ul className="social">
                     <li>
                       <a href="https://www.facebook.com/" target="_blank">
@@ -96,7 +96,7 @@ const TeamMember = () => {
                 />
 
                 <div className="content">
-                  <h3>Muna Ali</h3>
+                  <h3>Douglas Burgess</h3>
                   <span>Manager</span>
                   <ul className="social">
                     <li>

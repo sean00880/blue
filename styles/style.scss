@@ -45,8 +45,8 @@ This files table contents are outlined below >>>>>
 
 // Global Variable
 
-$main-color: #ff2c9c;
-$gradient-color: linear-gradient(to left top, #ff2c9c, #ff287b, #ff395a, #ff5137, #ff6a00);
+$main-color: #88ff41;
+$gradient-color: linear-gradient(to left top, #88ff41, #659947, #6c946f, #5ab775, #daffe6);
 $main-font-family: 'Open Sans', sans-serif;
 $heading-font-family: 'Saira', sans-serif;
 $font-size: 15px;
@@ -58,7 +58,6 @@ $transition: all 0.5s ease;
 body {
     padding: 0;
     margin: 0;
-    overflow-x: hidden;
     font: {
         family: $main-font-family;
         size: $font-size;
@@ -106,8 +105,6 @@ button {
 .border {
     border-color: #eee !important;
 }
-
-
 .radius-10 {
     border-radius: 10px;
 }
@@ -199,13 +196,12 @@ a {
     }
 }
 .btn-primary {
-    color: #ffffff;
-    background-color: #232627;
-    border: 4px solid #272a2bde;
-
+    color: $white-color;
+    background-color: $white-color;
+    border: 1px solid $main-color;
 
     &::before {
-        border-radius: 30px 20px;
+        border-radius: 5px;
         content: '';
         position: absolute;
         left: 0;
@@ -226,7 +222,7 @@ a {
     }
     &.disabled, &:disabled {
         color: $white-color;
-        background-color: black;
+        background-color: $white-color;
         border: 1px solid $main-color;
     }
     &:hover, &:focus {
@@ -262,7 +258,7 @@ a {
     &:not(:disabled):not(.disabled).active:focus, &:not(:disabled):not(.disabled):active:focus, .show>&.dropdown-toggle:focus {
         color: $white-color;
         box-shadow: unset;
-        background-color: $black-color;
+        background-color: $white-color;
         border-color: transparent;
     }
     &.disabled, &:disabled {
@@ -727,10 +723,9 @@ Navbar CSS
     .icon-bar {
         width: 28px;
         transition: all 0.3s;
-        background: #434f98;
+        background: $main-color;
         height: 2px;
         display: block;
-        
     }
     .top-bar {
         transform: rotate(45deg);
@@ -1103,7 +1098,7 @@ Main Banner CSS
             opacity: 1;
             &.swiper-pagination-bullet-active {
                 background: $gradient-color;
-                border: 1px solid #3865a8;
+                border: 1px solid #88ff41;
             }
         }
     }
@@ -2157,7 +2152,7 @@ Case Studies CSS
             opacity: 1;
             &.swiper-pagination-bullet-active {
                 background: $gradient-color;
-                border: 1px solid #ff2c9c;
+                border: 1px solid #88ff41;
             }
         }
     }
@@ -2783,7 +2778,7 @@ Feedback CSS
             opacity: 1;
             &.swiper-pagination-bullet-active {
                 background: $gradient-color;
-                border: 1px solid #ff2c9c;
+                border: 1px solid #88ff41;
             }
         }
     }
@@ -4271,7 +4266,7 @@ Blog CSS
             transition: $transition;
 
             a {
-                background: #759bbc;
+                background: $main-color;
                 color: $white-color;
                 padding: 9px 28px;
             }
@@ -4340,7 +4335,7 @@ Blog CSS
             opacity: 1;
             &.swiper-pagination-bullet-active {
                 background: $gradient-color;
-                border: 1px solid #ff2c9c;
+                border: 1px solid #88ff41;
             }
         }
     }
@@ -4520,7 +4515,7 @@ blockquote {
                 transition: $transition;
             }
             &:hover, &:focus {
-                border-color: #759bbc;
+                border-color: $main-color;
                 color: $white-color;
 
                 &::before {
@@ -6168,7 +6163,7 @@ span.new {
             opacity: 1;
             &.swiper-pagination-bullet-active {
                 background: $gradient-color;
-                border: 1px solid #ff2c9c;
+                border: 1px solid #88ff41;
             }
         }
     }
@@ -6199,5 +6194,3 @@ span.new {
         }
     }
 }
-
-

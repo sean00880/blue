@@ -13,7 +13,7 @@ const Footer = () => {
                 <div className="logo">
                   <Link href="/">
                     <a>
-                      <h3>Articulate Insurance</h3>
+                      <img src="/images/filmlogo2.png" alt="Logo" />
                     </a>
                   </Link>
                 </div>
@@ -123,19 +123,19 @@ const Footer = () => {
 
                 <ul className="get-in-touch">
                   <li>
-                    <i className="fa-solid fa-location-dot"></i> 1234 Independent Street
-                    Fairfax, Virginia.
+                    <i className="fa-solid fa-location-dot"></i> 2750 Quadra Street
+                    Victoria, Canada.
                   </li>
                   <li>
                     <i className="fa-solid fa-headset"></i>
-                    <a href="tel:+324-9442-515">+1(888)888-8888</a> 
+                    <a href="tel:+324-9442-515">+324-9442-515</a> 
                     <br />
-                    <a href="tel:+324-9442-515">+1(888)888-8888</a>
+                    <a href="tel:+324-9442-515">+324-9442-999</a>
                   </li>
                   <li>
                     <i className="fa-solid fa-envelope"></i>
-                    <a href="mailto:hello@pungent.com">service@articulateinsurance.com</a>
-                    <a href="mailto:support@pungent.com">support@articulateinsurance.com</a>
+                    <a href="mailto:hello@pungent.com">hello@afilmjunkieproductions.com</a>
+                    <a href="mailto:support@pungent.com">support@afilmjunkieproductions.com</a>
                   </li>
                 </ul>
               </div>

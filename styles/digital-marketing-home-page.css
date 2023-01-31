@@ -6,15 +6,10 @@
   border-bottom: 1px solid #f0f0f0;
   padding-top: 160px;
   padding-bottom: 80px;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 
 .marketing-banner-content {
   padding-right: 25px;
-  
 }
 
 .marketing-banner-content h1 {
@@ -33,10 +28,9 @@
 .marketing-banner-content .sub-title {
   display: block;
   margin-bottom: 10px;
-  color: #434f98;
+  color: #88ff41;
   font-weight: 600;
-  font-size: 29px;
-
+  font-size: 14px;
 }
 
 .marketing-banner-content .default-btn-two {
@@ -103,7 +97,7 @@
 .marketing-about-content .sub-title {
   display: block;
   margin-bottom: 12px;
-  color: #3d77db;
+  color: #88ff41;
   font-weight: 600;
   font-size: 14px;
 }
@@ -114,7 +108,7 @@
 }
 
 .marketing-about-content .default-btn-two {
-  margin: 30px;
+  margin-top: 15px;
 }
 
 .marketing-about-content .box {
@@ -128,7 +122,7 @@
   position: absolute;
   left: 0;
   top: 2px;
-  color: #3d77db;
+  color: #88ff41;
 }
 
 .marketing-about-content .box h3 {
@@ -160,7 +154,7 @@
 }
 
 .dm-services-item .content h3 a:hover {
-  color: #21488a;
+  color: #88ff41;
 }
 
 /* Funfacts */
@@ -184,7 +178,7 @@
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-  color: #21488a;
+  color: #88ff41;
   font-size: 45px;
 }
 
@@ -231,7 +225,7 @@
   content: '';
   position: absolute;
   border-radius: 50%;
-  background-color: #4c6fbb;
+  background-color: #88ff41;
 }
 
 .marketing-testimonials-image::after {
@@ -243,7 +237,7 @@
   content: '';
   position: absolute;
   border-radius: 65% 35% 70% 30% / 64% 31% 69% 36%;
-  background-color: #374750;
+  background-color: #ffac00;
 }
 
 .marketing-testimonials-image img {
@@ -259,7 +253,7 @@
 .marketing-testimonials-content .icon {
   line-height: 1;
   margin-bottom: 20px;
-  color: #37498a;
+  color: #88ff41;
   display: block;
   font-size: 45px;
 }
@@ -346,7 +340,7 @@
   position: absolute;
   left: 0;
   top: 3px;
-  color: #4c6fbb;
+  color: #88ff41;
 }
 
 .dm-pricing-box .features-list li i.close {
@@ -391,7 +385,7 @@
 
 .dm-team-member .content span {
   display: block;
-  color: #4c6fbb;
+  color: #88ff41;
   -webkit-transition: all 0.6s ease;
   transition: all 0.6s ease;
 }
@@ -423,7 +417,7 @@
 }
 
 .dm-team-member .content .social li a:hover {
-  color: #4c6fbb;
+  color: #88ff41;
 }
 
 .dm-team-member .content::before {
@@ -468,11 +462,11 @@
 }
 
 .marketing-testimonials-slides .swiper-button-prev:after {
-  color: #4c6fbb;
+  color: #88ff41;
 }
 
 .marketing-testimonials-slides .swiper-button-next:after {
-  color: #4c6fbb;
+  color: #88ff41;
 }
 
 /* Responsive CSS 

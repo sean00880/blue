@@ -51,7 +51,7 @@ const TeamStyleThree = () => {
                 </div>
 
                 <div className="team-caption">
-                  <h3>Saad</h3>
+                  <h3>James White</h3>
                   <p>CEO & Founder</p>
                 </div>
               </div>

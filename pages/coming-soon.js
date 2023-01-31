@@ -49,7 +49,9 @@ const ComingSoon = () => {
             <div className="container">
               <div className="coming-soon-content">
                 <Link href="/">
-                  <h1>Articulate Insurance</h1>
+                  <a className="logo">
+                    <img src="/images/logo.png" alt="image" />
+                  </a>
                 </Link>
 
                 <h2>We Are Launching Soon!</h2>

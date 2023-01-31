@@ -8,7 +8,12 @@ const Partner = () => {
       <div className="partner-area pb-100">
         <div className="container">
           <div className="section-title">
-            <span className="sub-title">Partners</span>
+            <span className="sub-title">Clients</span>
+            <h2>Our Clients</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
           </div>
 
           <Swiper

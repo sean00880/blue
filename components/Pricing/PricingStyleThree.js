@@ -7,7 +7,7 @@ const PricingStyleThree = () => {
       <div className="pricing-area pt-100 pb-70 bg-f9f6f6">
         <div className="container">
           <div className="section-title">
-            <h2>Choose The Pricing Plan</h2>
+            <h2>Pick Your Budget</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -24,51 +24,36 @@ const PricingStyleThree = () => {
                 data-aos-delay="100"
               >
                 <div className="pricing-header">
-                  <h3>Daily plan</h3>
+                  <h3>Private Session</h3>
                 </div>
 
                 <div className="price">
-                  <sup>$</sup>120 <sub>/ Day</sub>
+                  <sup>$</sup>0-99<sub>/ Session</sub>
                 </div>
 
                 <ul className="pricing-features">
                   <li>
                     <i className="fa-solid fa-circle-check"></i>
-                    Web Development
+                    Personal Videos
                   </li>
                   <li>
                     <i className="fa-solid fa-circle-check"></i>
-                    Email Integration
+                    Tiktok/SnapChat Video Ads
                   </li>
                   <li>
                     <i className="fa-solid fa-circle-check"></i>
-                    Messenger Integration
+                    Youtube Reel Videos
                   </li>
                   <li>
                     <i className="fa-solid fa-circle-check"></i>
-                    Mobile + Desktop Apps
+                    Personal Portraits
                   </li>
-                  <li>
-                    <i className="fa-solid fa-circle-check"></i>
-                    Quick Responses
-                  </li>
-                  <li>
-                    <i className="fa-solid fa-circle-check"></i>
-                    Drag & Drop Widgets
-                  </li>
-                  <li>
-                    <i className="fa-solid fa-circle-check"></i>
-                    Visitor Notes
-                  </li>
-                  <li>
-                    <i className="fa-solid fa-circle-check"></i>
-                    Google Analytics
-                  </li>
+                
                 </ul>
 
                 <div className="btn-box">
                   <Link href="#">
-                    <a className="btn btn-primary">Select the plan</a>
+                    <a className="btn btn-primary">Request Quote</a>
                   </Link>
                 </div>
               </div>
@@ -83,51 +68,35 @@ const PricingStyleThree = () => {
                 data-aos-delay="200"
               >
                 <div className="pricing-header">
-                  <h3>Weekly plan</h3>
+                  <h3>Enterprise Session</h3>
                 </div>
 
                 <div className="price">
-                  <sup>$</sup>840 <sub>/ Week</sub>
+                  <sup>$</sup>100-299 <sub>/ Session</sub>
                 </div>
 
                 <ul className="pricing-features">
                   <li>
                     <i className="fa-solid fa-circle-check"></i>
-                    Web Development
+                    Sports Videos
                   </li>
                   <li>
                     <i className="fa-solid fa-circle-check"></i>
-                    Email Integration
+                    Livestreaming
                   </li>
                   <li>
                     <i className="fa-solid fa-circle-check"></i>
-                    Messenger Integration
+                    Professional Portraits
                   </li>
                   <li>
                     <i className="fa-solid fa-circle-check"></i>
-                    Mobile + Desktop Apps
-                  </li>
-                  <li>
-                    <i className="fa-solid fa-circle-check"></i>
-                    Quick Responses
-                  </li>
-                  <li>
-                    <i className="fa-solid fa-circle-check"></i>
-                    Drag & Drop Widgets
-                  </li>
-                  <li>
-                    <i className="fa-solid fa-circle-check"></i>
-                    Visitor Notes
-                  </li>
-                  <li>
-                    <i className="fa-solid fa-circle-check"></i>
-                    Google Analytics
+                    Professional Headshots
                   </li>
                 </ul>
 
                 <div className="btn-box">
                   <Link href="#">
-                    <a className="btn btn-primary">Select the plan</a>
+                    <a className="btn btn-primary">Request Quote</a>
                   </Link>
                 </div>
               </div>
@@ -142,51 +111,39 @@ const PricingStyleThree = () => {
                 data-aos-delay="300"
               >
                 <div className="pricing-header">
-                  <h3>Monthly plan</h3>
+                  <h3>Industrial Session</h3>
                 </div>
 
                 <div className="price">
-                  <sup>$</sup>3,600<sub> / Month</sub>
+                  <sup>$</sup>299+<sub> / Session</sub>
                 </div>
 
                 <ul className="pricing-features">
-                  <li>
+                <li>
                     <i className="fa-solid fa-circle-check"></i>
-                    Web Development
+                    Corporate/Business Videos
                   </li>
                   <li>
                     <i className="fa-solid fa-circle-check"></i>
-                    Email Integration
+                    Event Videography
                   </li>
                   <li>
                     <i className="fa-solid fa-circle-check"></i>
-                    Messenger Integration
+                    TV Commercial Production
                   </li>
                   <li>
                     <i className="fa-solid fa-circle-check"></i>
-                    Mobile + Desktop Apps
+                    Documentaries
                   </li>
                   <li>
                     <i className="fa-solid fa-circle-check"></i>
-                    Quick Responses
-                  </li>
-                  <li>
-                    <i className="fa-solid fa-circle-check"></i>
-                    Drag & Drop Widgets
-                  </li>
-                  <li>
-                    <i className="fa-solid fa-circle-check"></i>
-                    Visitor Notes
-                  </li>
-                  <li>
-                    <i className="fa-solid fa-circle-check"></i>
-                    Google Analytics
+                    Crowdfunding
                   </li>
                 </ul>
 
                 <div className="btn-box">
                   <Link href="#">
-                    <a className="btn btn-primary">Select the plan</a>
+                    <a className="btn btn-primary">Request Quote</a>
                   </Link>
                 </div>
               </div>

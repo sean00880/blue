@@ -9,10 +9,11 @@ const MainBanner = () => {
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-12">
               <div className="marketing-banner-content">
-                <span className="sub-title">Articulate Insurance</span>
-                <h1>We're fluent in your needs.</h1>
+                <span className="sub-title">MARKETING AGENCY</span>
+                <h1>We Help You Take Your Business to The Next Level</h1>
                 <p>
-                  Schedule a Consultation today! 
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
 
                 <Link href="/contact">

@@ -22,7 +22,7 @@ const MainBanner = () => {
               <div className="row align-items-center">
                 <div className="col-lg-8">
                   <div className="main-banner-content">
-                    <h1>Welcome to our video studio!</h1>
+                    <h1>NOVA's busiest production studio welcomes you.</h1>
 
                     <p>
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit,

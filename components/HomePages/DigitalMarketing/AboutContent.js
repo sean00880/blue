@@ -24,29 +24,15 @@ const AboutContent = () => {
               <div className="marketing-about-content">
                 <span className="sub-title">ABOUT US</span>
                 <h2>
-                Who are we?
+                  We offer the World's Best <b>Digital Marketing</b> Services!
                 </h2>
                 <p>
-                Articulate is your locally owned, one-stop shop, independent insurance agency. If it is insurable, odds are we got you! Sahra Yusef is a veteran agent, with expertise in Health and Life insurance. She recruited her partner Saad Mansur shortly after opening the agency. Saad is a bit of a renaissance man. He worked as a Writer, Diplomat, Teacher, Editor, and now an insurance agent. With sahra's experience and expertise, and Saad's Extensive background, Articulate Insurance is your go-to Agency.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat.
                 </p>
 
-                <h2>
-                Why Us?
-                </h2>
-                <p>
-                1. We articulate complicated coverage in a simple and understandable way. We look for gaps  As a teacher, Saad has been Articulating much harder concepts for a while. 
-<br /><br />
-2. We pride ourselves on transparency. No funny business, we will show you all your possible carriers and what is best for you, not us.
-<br /><br />
-3. You got us! If you need to file a claim or ask a question, we do not have an 1800 number with a lengthy automated system that doesn't understand you. Call us directly, We will know exactly who you are, your current situation, and the best course of action. 
-                </p>
-
-                <h2>
-                Why Independent?
-                </h2>
-                <p>
-                The #1 advantage of having an independent agency is the variety of carriers we offer. As opposed to captive agents, who can only offer you one company, we can shop around and have the freedom to find you the best deal.  
-                </p>
                 <div className="row">
                   <div className="col-lg-6">
                     <div className="box">
@@ -60,7 +46,7 @@ const AboutContent = () => {
                   <div className="col-lg-6">
                     <div className="box">
                       <i className="fa-solid fa-check"></i>
-                      <h3>Flexible</h3>
+                      <h3>Excellence Track Record</h3>
                       <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                       </p>
@@ -69,7 +55,7 @@ const AboutContent = () => {
                   <div className="col-lg-6">
                     <div className="box">
                       <i className="fa-solid fa-check"></i>
-                      <h3>High-End Options</h3>
+                      <h3>High-End Anaylizing</h3>
                       <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                       </p>
@@ -78,7 +64,7 @@ const AboutContent = () => {
                   <div className="col-lg-6">
                     <div className="box">
                       <i className="fa-solid fa-check"></i>
-                      <h3>Dedicated Support</h3>
+                      <h3>Our Dedicated Support</h3>
                       <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                       </p>

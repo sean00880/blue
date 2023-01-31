@@ -18,7 +18,7 @@ const MainBanner = () => {
               <div className="row align-items-center">
                 <div className="col-lg-6">
                   <div className="main-banner-content">
-                    <h1>Start your startup agency with Pungent</h1>
+                    <h1>Professional Videos To Helo You Stand Out</h1>
                     <p>
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                       sed do eiusmod tempor incididunt ut labore et dolore

@@ -1,19 +1,18 @@
 import React from "react";
 import NavbarTwo from "../components/Layouts/NavbarTwo";
 import PageBanner from "../components/Common/PageBanner";
-import ServicesStyleOne from "../components/Services/ServicesStyleOne";
+import ServiceDetailsContent from "../components/Services/ServiceDetailsContent";
 import CtaAreaTwo from "../components/Common/CtaAreaTwo";
 import Footer from "../components/Layouts/Footer";
-import CaseStudies from "../components/HomePages/StartupAgencyTwo/CaseStudies";
 
-const Services = () => {
+const ServiceDetails = () => {
   return (
     <>
       <NavbarTwo />
 
-      <CaseStudies />
+      <PageBanner pageTitle="Mobile App Development" BGImage="/images/page-banner1.jpg" />
 
-      <ServicesStyleOne />
+      <ServiceDetailsContent />
 
       <CtaAreaTwo />
 
@@ -22,4 +21,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default ServiceDetails;
