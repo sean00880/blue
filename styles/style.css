@@ -3143,6 +3143,11 @@ Team CSS
   padding-bottom: 80px;
   position: relative;
   z-index: 1;
+  background: linear-gradient(45deg,#fff,#6dff74);
+} 
+
+.faq{
+  background: radial-gradient(#ffffff, #682d98);
 }
 
 .faq .section-title{
@@ -4305,6 +4310,10 @@ Blog CSS
 .single-blog-post {
   margin-bottom: 30px;
   background-color: #f5f6f5;
+}
+
+.blog-area .section-title h2{
+  color: #d3d3d4;
 }
 
 .single-blog-post .post-image {
