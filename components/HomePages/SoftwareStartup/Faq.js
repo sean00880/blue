@@ -14,7 +14,7 @@ const Faq = () => {
         <div className="container">
           <div className="section-title">
             
-          <h2>Services We Offer</h2>
+          <h2>FAQ</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -29,7 +29,7 @@ const Faq = () => {
                   <AccordionItem uuid="a">
                     <AccordionItemHeading>
                       <AccordionItemButton>
-                        How many team members can I invite?
+                        What services do you offer?
                       </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>
@@ -45,7 +45,7 @@ const Faq = () => {
                   <AccordionItem uuid="b">
                     <AccordionItemHeading>
                       <AccordionItemButton>
-                        What is the maximum file upload size?
+                        Where are you located?
                       </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>
@@ -61,7 +61,7 @@ const Faq = () => {
                   <AccordionItem uuid="c">
                     <AccordionItemHeading>
                       <AccordionItemButton>
-                        How do I reset my password?
+                        How much do you charge?
                       </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>
@@ -77,7 +77,7 @@ const Faq = () => {
                   <AccordionItem uuid="d">
                     <AccordionItemHeading>
                       <AccordionItemButton>
-                        Can I cancel my subscription?
+                        How can I make my payment?                   
                       </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>
@@ -109,7 +109,7 @@ const Faq = () => {
                   <AccordionItem uuid="f">
                     <AccordionItemHeading>
                       <AccordionItemButton>
-                        Can I cancel my subscription?
+                        What are your operating hours?                     
                       </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>
