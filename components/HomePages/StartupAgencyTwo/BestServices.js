@@ -155,7 +155,7 @@ const BestServices = () => {
           </div>
         </div>
       </section>
-      <section className="case-studies-area pt-100 pb-70">
+      <section className="case-studies-area pt-100 pb-70" id="services">
         <div className="container">
           <div className="section-title">
             <h2>Services We Offer</h2>

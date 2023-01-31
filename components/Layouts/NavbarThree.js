@@ -64,7 +64,7 @@ const NavbarThree = () => {
                 </li>
 
                 <li className="nav-item">
-                  <Link href="#">
+                  <Link href="/#services" scroll={true}>
                     <a className="nav-link" onClick={(e) => e.preventDefault()}>
                       Services 
                     </a>
