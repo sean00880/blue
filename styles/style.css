@@ -4601,7 +4601,7 @@ Blog CSS
 }
 
 .blog-item-box .blog-item .post-content h3 a:hover, .blog-item-box .blog-item .post-content h3 a:focus {
-  color: #88ff41;
+  color: #f77a04;
 }
 
 .blog-item-box .blog-item .post-image {
@@ -6287,7 +6287,7 @@ FAQ CSS
 }
 
 .faq-accordion .accordion .accordion__item .accordion__button:hover, .faq-accordion .accordion .accordion__item .accordion__button.active, .faq-accordion .accordion .accordion__item .accordion__button:focus {
-  background: #88ff41;
+  background: #222322;
   color: #ffffff;
   outline: 0;
 }

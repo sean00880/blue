@@ -58,7 +58,7 @@ const BestServices = () => {
                           <i className="pe-7s-magnet"></i>
                         </div>
 
-                        <h3>Custom Video Production</h3>
+                        <h3>Facebook Advertising</h3>
                         <p>
                           Quis ipsum suspendisse ultrices gravida. Risus commodo
                           viverra maecenas accumsan lacus vel facilisis.
@@ -84,7 +84,7 @@ const BestServices = () => {
                           <i className="pe-7s-vector"></i>
                         </div>
 
-                        <h3>Event Photography</h3>
+                        <h3>Twitter Account Management</h3>
                         <p>
                           Quis ipsum suspendisse ultrices gravida. Risus commodo
                           viverra maecenas accumsan lacus vel facilisis.
@@ -110,7 +110,7 @@ const BestServices = () => {
                           <i className="pe-7s-scissors"></i>
                         </div>
 
-                        <h3>Promotional Video</h3>
+                        <h3>Instagram Advertising</h3>
                         <p>
                           Quis ipsum suspendisse ultrices gravida. Risus commodo
                           viverra maecenas accumsan lacus vel facilisis.
@@ -136,7 +136,7 @@ const BestServices = () => {
                           <i className="pe-7s-scissors"></i>
                         </div>
 
-                        <h3>Portraits</h3>
+                        <h3>Custom Advertising</h3>
                         <p>
                           Quis ipsum suspendisse ultrices gravida. Risus commodo
                           viverra maecenas accumsan lacus vel facilisis.
@@ -167,8 +167,8 @@ const BestServices = () => {
           <div className="case-studies-tabs" >
             <Tabs>
               <TabList >
-                <Tab>Video Production</Tab>
-                <Tab>Photography</Tab>
+                <Tab>Social Media Advertising</Tab>
+                <Tab>Advertising Account Management</Tab>
                 <Tab>Other</Tab>
               </TabList>
 
@@ -181,7 +181,7 @@ const BestServices = () => {
                 </div>
                 <h3>
                   <Link href="/service-details">
-                    <a>Corporate/Business Videos</a>
+                    <a>Facebook Marketing</a>
                   </Link>
                 </h3>
                 <p>
@@ -203,7 +203,7 @@ const BestServices = () => {
                 </div>
                 <h3>
                   <Link href="/service-details">
-                    <a>Personal Videos</a>
+                    <a>Twitter Marketing</a>
                   </Link>
                 </h3>
                 <p>
@@ -225,75 +225,7 @@ const BestServices = () => {
                 </div>
                 <h3>
                   <Link href="/service-details">
-                    <a>Sports Videos</a>
-                  </Link>
-                </h3>
-                <p>
-                  Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
-                  maecenas accumsan lacus vel facilisis.
-                </p>
-
-                <Link href="/service-details">
-                  <a className="read-more-btn">Read More</a>
-                </Link>
-
-                <div className="back-text">Ba</div>
-              </div>
-                  </div>
-
-                  <div className="col-lg-4 col-sm-6 mt-40">
-                  <div className="featured-services-box">
-                <div className="icon">
-                  <i className="pe-7s-display1"></i>
-                </div>
-                <h3>
-                  <Link href="/service-details">
-                    <a>Documentaries</a>
-                  </Link>
-                </h3>
-                <p>
-                  Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
-                  maecenas accumsan lacus vel facilisis.
-                </p>
-
-                <Link href="/service-details">
-                  <a className="read-more-btn">Read More</a>
-                </Link>
-
-                <div className="back-text">Ba</div>
-              </div>
-                  </div>
-
-                  <div className="col-lg-4 col-sm-6 mt-40">
-                  <div className="featured-services-box">
-                <div className="icon">
-                  <i className="pe-7s-plugin"></i>
-                </div>
-                <h3>
-                  <Link href="/service-details">
-                    <a>Crowdfunding</a>
-                  </Link>
-                </h3>
-                <p>
-                  Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
-                  maecenas accumsan lacus vel facilisis.
-                </p>
-
-                <Link href="/service-details">
-                  <a className="read-more-btn">Read More</a>
-                </Link>
-
-                <div className="back-text">Id</div>
-              </div>
-                  </div>
-                  <div className="col-lg-4 col-sm-6 mt-40">
-                  <div className="featured-services-box">
-                <div className="icon">
-                  <i className="pe-7s-display1"></i>
-                </div>
-                <h3>
-                  <Link href="/service-details">
-                    <a>TV Commercial Production</a>
+                    <a>Instagram Marketing</a>
                   </Link>
                 </h3>
                 <p>
@@ -320,7 +252,7 @@ const BestServices = () => {
                 </div>
                 <h3>
                   <Link href="/service-details">
-                    <a>Personal Portraits</a>
+                    <a>Facebook Management</a>
                   </Link>
                 </h3>
                 <p>
@@ -342,7 +274,7 @@ const BestServices = () => {
                 </div>
                 <h3>
                   <Link href="/service-details">
-                    <a>Official Portraits</a>
+                    <a>Twitter Management</a>
                   </Link>
                 </h3>
                 <p>
@@ -365,7 +297,7 @@ const BestServices = () => {
                 </div>
                 <h3>
                   <Link href="/service-details">
-                    <a>Business Headshots</a>
+                    <a>Instagram Management</a>
                   </Link>
                 </h3>
                 <p>
@@ -378,72 +310,6 @@ const BestServices = () => {
                 </Link>
 
                 <div className="back-text">Ba</div>
-              </div>
-                  </div>
-                  <div className="col-lg-4 col-sm-6 mt-40">
-                  <div className="featured-services-box">
-                <div className="icon">
-                  <i className="pe-7s-plugin"></i>
-                </div>
-                <h3>
-                  <Link href="/service-details">
-                    <a>Event Photography</a>
-                  </Link>
-                </h3>
-                <p>
-                  Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
-                  maecenas accumsan lacus vel facilisis.
-                </p>
-
-                <Link href="/service-details">
-                  <a className="read-more-btn">Read More</a>
-                </Link>
-
-                <div className="back-text">Id</div>
-              </div>
-                  </div>
-                  <div className="col-lg-4 col-sm-6 mt-40">
-                  <div className="featured-services-box">
-                <div className="icon">
-                  <i className="pe-7s-plugin"></i>
-                </div>
-                <h3>
-                  <Link href="/service-details">
-                    <a>Family Photography</a>
-                  </Link>
-                </h3>
-                <p>
-                  Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
-                  maecenas accumsan lacus vel facilisis.
-                </p>
-
-                <Link href="/service-details">
-                  <a className="read-more-btn">Read More</a>
-                </Link>
-
-                <div className="back-text">Id</div>
-              </div>
-                  </div>
-                  <div className="col-lg-4 col-sm-6 mt-40">
-                  <div className="featured-services-box">
-                <div className="icon">
-                  <i className="pe-7s-plugin"></i>
-                </div>
-                <h3>
-                  <Link href="/service-details">
-                    <a>Preschool & K-12 Portraits</a>
-                  </Link>
-                </h3>
-                <p>
-                  Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
-                  maecenas accumsan lacus vel facilisis.
-                </p>
-
-                <Link href="/service-details">
-                  <a className="read-more-btn">Read More</a>
-                </Link>
-
-                <div className="back-text">Id</div>
               </div>
                   </div>
                   
@@ -474,51 +340,7 @@ const BestServices = () => {
                 <div className="back-text">Ia</div>
               </div>
                   </div>
-
-                  <div className="col-lg-4 col-sm-6 mt-40">
-                  <div className="featured-services-box">
-                <div className="icon">
-                  <i className="pe-7s-display1"></i>
-                </div>
-                <h3>
-                  <Link href="/service-details">
-                    <a>Livestreaming</a>
-                  </Link>
-                </h3>
-                <p>
-                  Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
-                  maecenas accumsan lacus vel facilisis.
-                </p>
-
-                <Link href="/service-details">
-                  <a className="read-more-btn">Read More</a>
-                </Link>
-
-                <div className="back-text">Ba</div>
-              </div>
-                  </div>
-                  <div className="col-lg-4 col-sm-6 mt-40">
-                  <div className="featured-services-box">
-                <div className="icon">
-                  <i className="pe-7s-filter"></i>
-                </div>
-                <h3>
-                  <Link href="/service-details">
-                    <a>Crowdfunding</a>
-                  </Link>
-                </h3>
-                <p>
-                  Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
-                  maecenas accumsan lacus vel facilisis.
-                </p>
-
-                <Link href="/service-details">
-                  <a className="read-more-btn">Read More</a>
-                </Link>
-
-                <div className="back-text">Ia</div>
-              </div>
-                  </div>
+                  
 
                   <div className="col-lg-4 col-sm-6 mt-40">
                   <div className="featured-services-box">

@@ -131,7 +131,7 @@ const Faq = () => {
                 data-aos="zoom-in"
                 data-aos-duration="1200"
               >
-                <img src="/images/software/faq-img.png" alt="Image" />
+                <img src="/images/digital-marketing1.svg" alt="Image" />
               </div>
             </div>
           </div>
