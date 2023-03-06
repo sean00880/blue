@@ -1146,7 +1146,7 @@
     font-size: 14px;
   }
   p {
-    font-size: 14px;
+    font-size: 17px;
   }
   .ptb-100 {
     padding-top: 70px;
@@ -1286,7 +1286,8 @@
   .case-studies-tabs .react-tabs .react-tabs__tab-list li {
     margin-left: 12px;
     margin-right: 12px;
-    font-size: 14px;
+    font-size: 17px;
+    letter-spacing: 2px;
   }
   .col-lg-4:nth-child(1) .single-case-studies, .col-lg-4:nth-child(3) .single-case-studies {
     margin-top: 0;
@@ -1339,7 +1340,6 @@
   }
   .services-inner .services-section-title {
     max-width: unset;
-    padding-right: 0;
     margin-left: 0;
   }
   .services-inner .services-section-title h2 {
@@ -1354,7 +1354,6 @@
   .services-list {
     padding-top: 90px;
     padding-bottom: 90px;
-    padding-right: 0;
   }
   .single-services .content {
     bottom: -135px;
@@ -1810,7 +1809,10 @@
     font-size: 14px;
   }
   .navbar-area nav .navbar-brand img {
-    max-width: 130px;
+    max-width: 150px;
+    top: -14%;
+    left: 3%;
+    position: absolute;
   }
   .navbar-area nav .navbar-nav .nav-item {
     padding-left: 10px;
@@ -2078,7 +2080,7 @@
   }
   .hero-banner .main-banner-content p {
     margin-bottom: 15px;
-    font-size: 16px;
+    font-size: 21px;
   }
   .main-banner-content .btn-primary {
     margin-right: 20px;

@@ -1,4 +1,6 @@
 /* Global Variables */
+@import "@fontsource/abel";
+
 :root {
   --transition: .5s;
   --mainColor: #ED2775;
@@ -8,7 +10,7 @@
 }
 
 p, ul, ol {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Abel', sans-serif;
 }
 
 .app-sub-title {

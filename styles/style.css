@@ -43,6 +43,9 @@ This files table contents are outlined below >>>>>
 */
 /* Default CSS */
 
+@import "@fontsource/abel";
+@import "@fontsource/advent-pro";
+
 html{
   scroll-behavior: smooth;
   overflow-x: hidden;
@@ -51,7 +54,7 @@ html{
 body {
   padding: 0;
   margin: 0;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Abel", sans-serif;
   font-size: 15px;
   color: #646464;
   overflow-x: hidden;
@@ -59,7 +62,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Saira", sans-serif;
+  font-family: "Advent Pro", 'sans-serif';
   color: #18181b;
   font-weight: bold;
 }
@@ -212,10 +215,10 @@ a:hover, a:focus {
 .btn-primary {
   color: #ffffff;
   background-color: #ffffff;
-  border: 1px solid #88ff41;
+  border: 1px solid white;
   letter-spacing: 3px;
   text-transform: uppercase;
-  font-family: 'saira';
+  font-family: 'Advent Pro', 'sans-serif';
 }
 
 .btn-primary::before {
@@ -228,12 +231,11 @@ a:hover, a:focus {
   margin: 0 auto;
   width: 100%;
   height: 100%;
-  background: -webkit-gradient(linear, right bottom, left top, from(#88ff41), color-stop(#659947), color-stop(#6c946f), color-stop(#5ab775), to(#daffe6));
-  background: linear-gradient(to left top, #e7e7e7, #438a1f, #575d58, #8d9e92, #c566f6);
+  background: -webkit-gradient(linear-gradient(to left top, #e7e7e7, #1c2025, #69533f, #ff8212, #ffffff));
+  background: linear-gradient(to left top, #343434, #1c2025, #69533f, #ff8212, #ffffff);
   z-index: -1;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
-  border:3px solid white;
 }
 
 .btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show > .btn-primary.dropdown-toggle:focus {
@@ -251,7 +253,7 @@ a:hover, a:focus {
 }
 
 .btn-primary:hover, .btn-primary:focus {
-  color: #88ff41;
+  color: #ff8212;
   -webkit-box-shadow: unset;
           box-shadow: unset;
   background-color: #2e2b30eb;
@@ -407,7 +409,7 @@ label {
 Navbar CSS
 =================================================*/
 .navbar-area {
-  background-image: url(/images/film2.png);
+  background-image: url(/images/orange.webp);
   background-size: cover;
   top: 0;
   left: 0;
@@ -419,7 +421,7 @@ Navbar CSS
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  border-bottom: 3px solid #bde6b4;;
+  border-bottom: 3px solid #ffffff;
 }
 
 .navbar-area nav ul {
@@ -435,8 +437,8 @@ Navbar CSS
 
 .navbar-area nav .navbar-nav {
   margin-left: auto;
-  border: 4px solid white;
-    background: #565454;
+  border:4px solid #1c2025;
+    background: white;
     padding: 25px;
     border-radius: 30px;
 }
@@ -451,8 +453,8 @@ Navbar CSS
 }
 
 .navbar-area nav .navbar-nav .nav-item a {
-  color: #d4d4d6;
-  text-transform: capitalize;
+  color: #000000;
+  text-transform: uppercase;
   position: relative;
   font-weight: 500;
   font-size: 15px;
@@ -460,16 +462,15 @@ Navbar CSS
   padding-right: 0;
   padding-top: 0;
   padding-bottom: 0;
-  font-style: italic;
-  font-family: 'saira';
+  font-family: 'Advent Pro', 'sans-serif';
   letter-spacing: 1px;
 }
 
 .navbar-area nav .navbar-nav .nav-item a::before {
   bottom: -5px;
   width: 0;
-  background: -webkit-gradient(linear, right bottom, left top, from(#88ff41), color-stop(#659947), color-stop(#6c946f), color-stop(#5ab775), to(#daffe6));
-  background: linear-gradient(to left top, #88ff41, #659947, #6c946f, #5ab775, #daffe6);
+  background: -webkit-gradient(linear-gradient(to left top, #ff8212, #ff8212, #ffc107, #ffc107, #ff8212));
+  background: linear-gradient(to left top, #ff8212, #ff8212, #ffc107, #ffc107, #ff8212);
   height: 3px;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
@@ -479,7 +480,7 @@ Navbar CSS
 }
 
 .navbar-area nav .navbar-nav .nav-item a:hover, .navbar-area nav .navbar-nav .nav-item a:focus, .navbar-area nav .navbar-nav .nav-item a.active {
-  color: #18181b;
+  color: #ff8212;
 }
 
 .navbar-area nav .navbar-nav .nav-item a:hover::before, .navbar-area nav .navbar-nav .nav-item a:focus::before, .navbar-area nav .navbar-nav .nav-item a.active::before {
@@ -936,6 +937,8 @@ Main Banner CSS
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
+  background-image: url('/images/orangefruit.png');
+  background-attachment: fixed;
 }
 
 .hero-banner.overly::before {
@@ -951,7 +954,7 @@ Main Banner CSS
 
 .hero-banner.overly-6::before {
   content: "";
-  background-color: #18181b;
+  background: linear-gradient(225deg, black, #ffffff00);
   opacity: .60;
   position: absolute;
   left: 0;
@@ -963,6 +966,12 @@ Main Banner CSS
 .hero-banner .main-banner-content {
   position: relative;
   z-index: 5;
+  background: #1c2025;
+  padding: 1vh;
+  border-radius: 4vh 5vh;
+  display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .hero-banner .main-banner-content.text-center {
@@ -981,14 +990,21 @@ Main Banner CSS
 }
 
 .hero-banner .main-banner-content h1 {
-  color: #ffffff;
-  font-size: 80px;
+  color: #141414;
+    font-size: 80px;
+    margin: 0;
+    background-color: white;
+    border-radius: 3vh 4vh 1vh 1vh;
+    font-weight: 400;
+    font-style: normal;
+    padding:1vh;
 }
 
 .hero-banner .main-banner-content p {
   color: #ffffff;
   margin-bottom: 30px;
   font-size: 19px;
+  text-indent: 30px;
 }
 
 .hero-banner .main-banner-content .btn {
@@ -1464,11 +1480,11 @@ Main Banner CSS
 }
 
 .slider-area ul li .tp-caption.NotGeneric-Title, .slider-area ul li .NotGeneric-Title {
-  font-family: "Saira", sans-serif !important;
+  font-family: "Advent Pro", "sans-serif" !important;
 }
 
 .slider-area ul li .tp-caption.NotGeneric-SubTitle, .slider-area ul li .NotGeneric-SubTitle {
-  font-family: "Open Sans", sans-serif !important;
+  font-family: "Abel", sans-serif !important;
   font-size: 15px !important;
   font-weight: 500 !important;
   letter-spacing: 0 !important;
@@ -1519,7 +1535,7 @@ Main Banner CSS
 }
 
 .video-studio .video-box .video-btn {
-  background-color: #88ff41;
+  background-color: #64904e;
   color: #ffffff;
   font-size: 50px;
   width: 100px;
@@ -1528,12 +1544,12 @@ Main Banner CSS
 }
 
 .video-studio .video-box .video-btn::after, .video-studio .video-box .video-btn::before {
-  border: 1px solid #88ff41;
+  border: 1px solid #f0f0f0;
 }
 
 .video-studio .video-box .video-btn:hover, .video-studio .video-box .video-btn:focus {
   background-color: #ffffff;
-  color: #88ff41;
+  color: #64904e;
 }
 
 .video-studio .video-box .video-btn:hover::after, .video-studio .video-box .video-btn:hover::before, .video-studio .video-box .video-btn:focus::after, .video-studio .video-box .video-btn:focus::before {
@@ -1622,7 +1638,7 @@ Featured Services CSS
 
 .featured-services-box .icon {
   font-size: 45px;
-  color: #c6a7dc;
+  color: #171718;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
   
@@ -1663,8 +1679,8 @@ Featured Services CSS
   top: 0;
   width: 100%;
   height: 100%;
-  background: -webkit-gradient(linear, right bottom, left top, from(#88ff41), color-stop(#659947), color-stop(#6c946f), color-stop(#5ab775), to(#daffe6));
-  background: linear-gradient(to left top, #88ff41, #659947, #6c946f, #5ab775, #daffe6);
+  background: -webkit-gradient(linear-gradient(to top, #ff8212, #ff8212, #3c3c3c, #252525, #000000));
+  background: linear-gradient(to top, #ff8212, #ff8212, #3c3c3c, #252525, #000000);
   z-index: -1;
   opacity: 0;
   visibility: hidden;
@@ -1731,6 +1747,7 @@ Featured Services CSS
   font-size: 15px;
   font-weight: 600;
   margin-top: auto;
+  top:10px;
 }
 
 .read-more-btn::before {
@@ -1754,6 +1771,8 @@ Featured Services CSS
   opacity: 1;
   visibility: visible;
   left: 40px;
+  left: 3px;
+  top: 27px;
 }
 
 .read-more-btn i {
@@ -2149,11 +2168,11 @@ Case Studies CSS
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
   height: 2px;
-  background: linear-gradient(to left top, #88ff41, #659947, #6c946f, #962ae7, #912ddd);
+  background: linear-gradient(to left top, #ff8212, #ff8212, #bdbdbd, #48464a, #000000);
 }
 
 .case-studies-tabs .react-tabs .react-tabs__tab-list li:hover, .case-studies-tabs .react-tabs .react-tabs__tab-list li:focus, .case-studies-tabs .react-tabs .react-tabs__tab-list li:focus-visible {
-  color: #518333;
+  color: whitesmoke;
   outline: 0;
     font-style: italic;
     transition: .4s;
@@ -2164,7 +2183,7 @@ Case Studies CSS
 }
 
 .case-studies-tabs .react-tabs .react-tabs__tab-list li.react-tabs__tab--selected {
-  color: #b674c4;
+  color: #f77b04;
     font-style: italic;
     transition: .4s;
 }
@@ -2350,7 +2369,7 @@ Quotes CSS
   position: relative;
   font-size: 32px;
   font-weight: 700;
-  font-family: "Saira", sans-serif;
+  font-family: "Advent Pro", 'sans-serif';
   border-radius: 1vh 5vh;
   border: 6px solid #b0ffb0;
   padding: 42px;
@@ -2422,15 +2441,19 @@ background:#2f2c2c;
     border-radius: 1vh;
     text-align: center;
     display: flex;
-    background: #1c1b1b;
-    border: 3px solid #a97dc8;
+    background: #ff8212;
+    border: 3px solid #ffffff;
 }
 
 .services-inner .services-section-title h2 {
   margin-bottom: 0;
-  color: #dbf5cb;
+  color: #444444;
   font-size: 36px;
   font-style: italic;
+}
+
+.services-inner .services-section-title h2 span{
+  color:white;
 }
 
 .services-inner .services-section-title .bar {
@@ -2449,7 +2472,7 @@ background:#2f2c2c;
   color: black;
   padding: 3vh;
   border-radius: 1vh;
-  border: 3px solid #c5fcc5;
+  border: 3px solid #2f2c2c;
   letter-spacing: 3px;
 }
 
@@ -2493,7 +2516,7 @@ background:#2f2c2c;
 
 .services-list .single-services {
   border-radius: 1vh;
-  border: 3px solid #bde6b4;
+  border: 3px solid #ffffff;
   margin-bottom: 0;
 }
 
@@ -2509,7 +2532,7 @@ background:#2f2c2c;
   position: absolute;
   left: 0;
   top: 0;
-  background: #565454;
+  background: #030308;
   opacity: .70;
   right: 0;
   bottom: 0;
@@ -2921,8 +2944,8 @@ Feedback CSS
 }
 
 .feedback-list .quotes-icon {
-  background: -webkit-gradient(linear, right bottom, left top, from(#88ff41), color-stop(#659947), color-stop(#6c946f), color-stop(#5ab775), to(#daffe6));
-  background: linear-gradient(to left top, #88ff41, #659947, #6c946f, #5ab775, #daffe6);
+  background: #f67a02;
+  background: #f67a02;
   margin: 0 auto;
   width: 70px;
   height: 70px;
@@ -3155,7 +3178,7 @@ Team CSS
 } 
 
 .faq{
-  background: radial-gradient(#ffffff, #682d98);
+  background: radial-gradient(#ffffff, #f67901);
 }
 
 .faq .section-title{
@@ -3468,7 +3491,7 @@ Pricing CSS
 }
 
 .pricing-area .section-title h2{
-  color: #a772d1;
+  color: #f57901;
 }
 
 .pricing-table {
@@ -3597,11 +3620,11 @@ Pricing Area CSS
   border-radius: 5px;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
-  border: 3px solid #b6caaa;
+  border: 3px solid #adadad;
 }
 
 .single-pricing-table:hover {
-  border: 3px solid #b77cda;
+  border: 3px solid #f67902;
   background-color: #ffffff;
 }
 
@@ -3653,7 +3676,7 @@ Pricing Area CSS
 
 .single-pricing-table .price sub {
   bottom: 2px;
-  color: #4a6f8a;
+  color: #ececec;
   padding-right: 5px;
   font-size: 14px;
   font-weight: 500;
@@ -3679,12 +3702,16 @@ Pricing Area CSS
   color: black;
 }
 
+.single-pricing-table:hover sub{
+  color:black;
+}
+
 .single-pricing-table .pricing-features li:last-child {
   margin-bottom: 0;
 }
 
 .single-pricing-table .pricing-features li i {
-  color: #9d7cc2;
+  color: #85bd85;
   position: absolute;
   left: 0;
   top: 3px;
@@ -4032,8 +4059,8 @@ CTA CSS
 }
 
 .cta-area-two::before {
-  background: -webkit-gradient(linear, right bottom, left top, from(#88ff41), color-stop(#659947), color-stop(#6c946f), color-stop(#5ab775), to(#daffe6));
-  background: linear-gradient(to left top, #88ff41, #659947, #6c946f, #5ab775, #daffe6);
+  background: -webkit-gradient(linear-gradient(to left top, #343434, #1c2025, #69533f, #ff8212, #ffffff));
+  background: linear-gradient(to left top, #343434, #1c2025, #69533f, #ff8212, #ffffff);
   position: absolute;
   height: 100%;
   width: 100%;
@@ -4366,7 +4393,7 @@ Blog CSS
 }
 
 .blog-area .section-title h2{
-  color: #987cae;
+  color: #303030;
 }
 
 .single-blog-post .post-image {
@@ -4847,7 +4874,7 @@ blockquote p {
 blockquote cite {
   position: relative;
   padding-left: 17px;
-  font-family: "Saira", sans-serif;
+  font-family: "Advent Pro", 'sans-serif';
   font-weight: 600;
 }
 
@@ -5013,7 +5040,7 @@ blockquote cite::before {
 
 .comments-area .comment-author .fn {
   font-weight: 600;
-  font-family: "Saira", sans-serif;
+  font-family: "Advent Pro", 'sans-serif';
 }
 
 .comments-area .comment-author .says {
@@ -5553,7 +5580,7 @@ textarea.form-control {
 
 .contact-sidebar .contact-item span {
   font-size: 18px;
-  font-family: "Saira", sans-serif;
+  font-family: "Advent Pro", 'sans-serif';
   font-weight: 600;
   display: block;
   margin-bottom: 10px;
@@ -5965,7 +5992,7 @@ Case Studies Details CSS
 .case-studies-information ul li span {
   font-size: 16px;
   font-weight: 700;
-  font-family: "Saira", sans-serif;
+  font-family: "Advent Pro", 'sans-serif';
   color: #18181b;
   display: inline-block;
   margin-right: 4px;
@@ -6099,7 +6126,7 @@ display: none;
 .portfolio-information ul li span {
   font-size: 16px;
   font-weight: 700;
-  font-family: "Saira", sans-serif;
+  font-family: "Advent Pro", 'sans-serif';
   color: #18181b;
   display: inline-block;
   margin-right: 4px;
@@ -6247,7 +6274,16 @@ FAQ CSS
   color: #18181b;
   font-size: 18px;
   font-weight: 700;
-  font-family: "Saira", sans-serif;
+  font-family: "Advent Pro", 'sans-serif';
+  border-radius: 1vh;
+  padding: 15px 40px 15px 20px;
+  background-color: #fff;
+  margin: 1vh 0;
+  font-style: italic;
+  letter-spacing: 3px;
+  line-height: 2;
+  font-weight: 300;
+  
 }
 
 .faq-accordion .accordion .accordion__item .accordion__button:hover, .faq-accordion .accordion .accordion__item .accordion__button.active, .faq-accordion .accordion .accordion__item .accordion__button:focus {
@@ -6271,6 +6307,13 @@ FAQ CSS
 .faq-accordion .accordion .accordion__panel {
   padding: 20px;
   border: 1px solid #eee;
+  background:white;
+  border-radius: 1vh;
+}
+
+.faq-accordion .accordion .accordion__panel p{
+  color:green;
+  font-size: 19px;
 }
 
 .faq-contact {
@@ -6286,7 +6329,7 @@ FAQ CSS
 .faq-contact h3 {
   margin-bottom: 35px;
   font-size: 24px;
-  font-family: "Saira", sans-serif;
+  font-family: "Advent Pro", 'sans-serif';
 }
 
 .faq-contact form .btn {

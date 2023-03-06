@@ -31,20 +31,8 @@ const StartupAgency2 = () => {
 
       <PricingStyleThree />
 
-      <WorkProcess />
-
-      <FeedbackTwo />
-
-
-
-      <Partner />
-
       <Feedback />
 
-      <Portfolio />
-  
-
-      <TeamStyleFour />
       <Faq/>
 
     

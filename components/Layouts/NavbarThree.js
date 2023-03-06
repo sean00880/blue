@@ -31,7 +31,7 @@ const NavbarThree = () => {
           <div className="container">
             <Link href="/">
               <a className="navbar-brand">
-                <img src="/images/filmlogo2.png" alt="logo" style={{"maxWidth":"29%", "borderRadius":"1vh"}} />
+                <img src="/images/filmlogo2.png" alt="logo" style={{"maxWidth":"150px", "borderRadius":"1vh"}} />
               </a>
             </Link>
 
@@ -64,7 +64,7 @@ const NavbarThree = () => {
                 </li>
 
                 <li className="nav-item">
-                  <Link to="services" smooth={true} spy={true} offset={-100}>
+                  <Link to="services" smooth={true} spy={true} offset={-200}>
                     <a className="nav-link" onClick={(e) => e.preventDefault()}>
                       Services 
                     </a>
@@ -75,21 +75,21 @@ const NavbarThree = () => {
                 
 
                 <li className="nav-item">
-                  <Link to="pricing" smooth={true} spy={true} offset={-100}>
+                  <Link to="pricing" smooth={true} spy={true} offset={-200}>
                     <a className="nav-link">Pricing</a>
                   </Link>
                 </li>
 
                 <li className="nav-item">
-                  <Link to="process" smooth={true} spy={true} offset={-100}>
+                  <Link to="feedback" smooth={true} spy={true} offset={-300}>
                     <a className="nav-link" onClick={(e) => e.preventDefault()}>
-                      Process 
+                      Testimonials 
                     </a>
                   </Link>
                 </li>
 
                 <li className="nav-item">
-                  <Link to="faq" smooth={true} spy={true} offset={-100}>
+                  <Link to="faq" smooth={true} spy={true} offset={-200}>
                     <a className="nav-link" onClick={(e) => e.preventDefault()}>
                       FAQ 
                     </a>

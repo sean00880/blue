@@ -22,12 +22,10 @@ const MainBanner = () => {
               <div className="row align-items-center">
                 <div className="col-lg-8">
                   <div className="main-banner-content">
-                    <h1>DMV's busiest production studio welcomes you.</h1>
+                    <h1>Orange Marketing: Your Partner for Innovative Marketing Solutions</h1>
 
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua.
+                    At Orange, we believe that social media is one of the most powerful tools for businesses to connect with their audience and grow their brand. Our team of experts is dedicated to helping you leverage the power of social media to achieve your business goals.
                     </p>
 
                     <Link href="/contact">
