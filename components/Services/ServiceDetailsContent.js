@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import FsLightbox from "fslightbox-react";
+import Link from "next/link";
 
 const ServiceDetailsContent = () => {
   const [toggler, setToggler] = useState(false);
@@ -13,102 +14,48 @@ const ServiceDetailsContent = () => {
       <div className="services-details-area ptb-100">
         <div className="container">
           <div className="row">
-            <div className="col-lg-12 col-md-12">
-              <div className="services-details-image">
-                <img src="/images/services/single-service.jpg" alt="image" />
-
-                <div className="video-box">
-                  <div
-                    onClick={() => setToggler(!toggler)}
-                    className="video-btn"
-                  >
-                    <i className="fa-solid fa-play"></i>
-                  </div>
-                </div>
-              </div>
-            </div>
 
             <div className="col-lg-8 col-md-12">
               <div className="services-details-desc">
-                <h2>Services Description</h2>
+                <h2>Twitter Marketing Services</h2>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore.
+                With years of experience in digital marketing, our team is dedicated to creating customized Twitter marketing campaigns that align with your business goals and objectives.
                 </p>
-
+                
                 <p>
-                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                  accusantium doloremque laudantium, totam rem aperiam, eaque
-                  ipsa quae ab illo inventore veritatis et quasi architecto
-                  beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem
-                  quia voluptas sit aspernatur aut odit aut fugit, sed quia.
+                We understand that Twitter can be a powerful tool for businesses to connect with their audience, increase brand awareness, and drive conversions. Our team of experienced social media experts will work closely with you to create a tailored Twitter marketing strategy that aligns with your business objectives.
                 </p>
-
-                <p>
-                  But I must explain to you how all this mistaken idea of
-                  denouncing pleasure and praising pain was born and I will give
-                  you a complete account of the system, and expound the actual
-                  teachings of the great explorer of the truth, the
-                  master-builder of human happiness. No one rejects, dislikes,
-                  or avoids pleasure itself, because it is pleasure, but because
-                  those who do not know how to pursue pleasure rationally
-                  encounter.
-                </p>
-
-                <p>
-                  At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                  blanditiis praesentium voluptatum deleniti atque corrupti quos
-                  dolores et quas molestias excepturi sint occaecati cupiditate
-                  non provident, similique sunt in culpa qui officia deserunt
-                  mollitia animi, id est laborum et dolorum fuga.
-                </p>
-
-                <p>
-                  At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                  blanditiis praesentium voluptatum deleniti atque corrupti quos
-                  dolores et quas molestias excepturi sint occaecati cupiditate
-                  non provident, similique sunt in culpa qui officia deserunt
-                  mollitia animi, id est laborum et dolorum fuga. Et harum
-                  quidem rerum facilis est et expedita distinctio. Nam libero
-                  tempore, cum soluta nobis est eligendi optio cumque nihil
-                  impedit quo minus id quod maxime placeat facere possimus,
-                  omnis voluptas assumenda est, omnis.
-                </p>
+                <p>At Orange Marketing Agency, we are dedicated to helping businesses achieve their marketing goals on Twitter. Contact us today to learn more about our Twitter marketing services and how we can help your business grow on social media.</p>
+                <h3>Our Services:</h3>
+                <h4>Strategy development:</h4>
+                <p>We start by understanding your business, target audience, and competition to create a comprehensive Twitter marketing strategy. This includes setting clear goals, determining the right messaging and tone, and identifying the best tactics for engaging with your audience.</p>
+                <h4>Content creation:</h4>
+                <p> Our team of content experts will create compelling and relevant content for your Twitter profile that resonates with your target audience. This includes a mix of text, images, videos, and other multimedia content that helps you stand out in a crowded social media landscape.</p>
+                <h4>Community Management:</h4>
+                <p>We monitor your Twitter account regularly, respond to comments and messages.</p>
+                <div className="others-options">
+                <Link href="/contact">
+                  <a className="btn btn-primary">Request Your Free Quote</a>
+                </Link>
+              </div>
               </div>
             </div>
 
             <div className="col-lg-4 col-md-12">
               <div className="services-details-info">
-                <h3>Our Working Process</h3>
+                
                 <ul>
-                  <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor.
-                  </li>
-                  <li>
-                    Creative Team Sed ut perspiciatis unde omnis iste natus
-                    error sit voluptatem.
-                  </li>
-                  <li>
-                    Branding But I must explain to you how all this mistaken
-                    idea of denouncing.
-                  </li>
-                  <li>
-                    Clean Code At vero eos et accusamus et iusto odio
-                    dignissimos ducimus qui.
-                  </li>
-                  <li>
-                    UX/UI Friendly On the other hand, we denounce with righteous
-                    indignation.
-                  </li>
-                  <li>
-                    24/7 Support There are many variations of passages of Lorem
-                    Ipsum available.
-                  </li>
+                <h2>Our Working Process:</h2>
+
+<li>Twitter account setup and optimization: We help businesses create and optimize their Twitter profiles to ensure they are fully optimized for search and user engagement.</li>
+
+<li>Content creation and curation: We create and curate high-quality, engaging content that is specifically tailored to each client's target audience. This includes tweets, images, videos, and other multimedia content.</li>
+
+<li>Hashtag research and usage: We conduct extensive research to identify the most relevant and effective hashtags for each client's brand and industry. We then use these hashtags strategically to increase visibility and engagement.</li>
+
+<li>Twitter ads management: We create and manage Twitter ad campaigns to help businesses reach a wider audience and generate leads and sales. We optimize ad targeting, budget, and creative to achieve the best possible results.</li>
+
+<li>Analytics and reporting: We provide regular analytics and reporting to help clients track the performance of their Twitter campaigns. This includes data on engagement, reach, clicks, conversions, and other key metrics.</li>
                 </ul>
               </div>
             </div>

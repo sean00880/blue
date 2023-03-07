@@ -167,8 +167,8 @@ const BestServices = () => {
           <div className="case-studies-tabs" >
             <Tabs>
               <TabList >
-                <Tab>Social Media Advertising</Tab>
-                <Tab>Advertising Account Management</Tab>
+                <Tab>Twitter Marketing</Tab>
+                <Tab>Facebook Marketing</Tab>
                 <Tab>Other</Tab>
               </TabList>
 
@@ -180,8 +180,8 @@ const BestServices = () => {
                   <i className="pe-7s-filter"></i>
                 </div>
                 <h3>
-                  <Link href="/service-details">
-                    <a>Facebook Marketing</a>
+                  <Link href="/twitter-marketing">
+                    <a>Twitter Advertising</a>
                   </Link>
                 </h3>
                 <p>
@@ -189,7 +189,7 @@ const BestServices = () => {
                   maecenas accumsan lacus vel facilisis.
                 </p>
 
-                <Link href="/service-details">
+                <Link href="/twitter-marketing">
                   <a className="read-more-btn">Read More</a>
                 </Link>
 
@@ -199,11 +199,11 @@ const BestServices = () => {
                   <div className="col-lg-4 col-sm-6 mt-40">
                   <div className="featured-services-box">
                 <div className="icon">
-                  <i className="pe-7s-display1"></i>
+                  <i className="pe-7s-plugin"></i>
                 </div>
                 <h3>
-                  <Link href="/service-details">
-                    <a>Twitter Marketing</a>
+                  <Link href="/twitter-marketing">
+                    <a>Twitter Account Management</a>
                   </Link>
                 </h3>
                 <p>
@@ -211,7 +211,7 @@ const BestServices = () => {
                   maecenas accumsan lacus vel facilisis.
                 </p>
 
-                <Link href="/service-details">
+                <Link href="/twitter-marketing">
                   <a className="read-more-btn">Read More</a>
                 </Link>
 
@@ -224,8 +224,8 @@ const BestServices = () => {
                   <i className="pe-7s-display1"></i>
                 </div>
                 <h3>
-                  <Link href="/service-details">
-                    <a>Instagram Marketing</a>
+                  <Link href="/twitter-marketing">
+                    <a>Twitter Content Strategizing</a>
                   </Link>
                 </h3>
                 <p>
@@ -233,7 +233,7 @@ const BestServices = () => {
                   maecenas accumsan lacus vel facilisis.
                 </p>
 
-                <Link href="/service-details">
+                <Link href="/twitter-marketing">
                   <a className="read-more-btn">Read More</a>
                 </Link>
 
@@ -251,8 +251,8 @@ const BestServices = () => {
                   <i className="pe-7s-filter"></i>
                 </div>
                 <h3>
-                  <Link href="/service-details">
-                    <a>Facebook Management</a>
+                  <Link href="/facebook-marketing">
+                    <a>Facebook Advertising</a>
                   </Link>
                 </h3>
                 <p>
@@ -260,7 +260,7 @@ const BestServices = () => {
                   maecenas accumsan lacus vel facilisis.
                 </p>
 
-                <Link href="/service-details">
+                <Link href="/facebook-marketing">
                   <a className="read-more-btn">Read More</a>
                 </Link>
 
@@ -270,11 +270,11 @@ const BestServices = () => {
                   <div className="col-lg-4 col-sm-6 mt-40">
                   <div className="featured-services-box">
                 <div className="icon">
-                  <i className="pe-7s-filter"></i>
+                  <i className="pe-7s-plugin"></i>
                 </div>
                 <h3>
-                  <Link href="/service-details">
-                    <a>Twitter Management</a>
+                  <Link href="/facebook-marketing">
+                    <a>Facebook Account Management</a>
                   </Link>
                 </h3>
                 <p>
@@ -282,7 +282,7 @@ const BestServices = () => {
                   maecenas accumsan lacus vel facilisis.
                 </p>
 
-                <Link href="/service-details">
+                <Link href="/facebook-marketing">
                   <a className="read-more-btn">Read More</a>
                 </Link>
 
@@ -296,8 +296,8 @@ const BestServices = () => {
                   <i className="pe-7s-display1"></i>
                 </div>
                 <h3>
-                  <Link href="/service-details">
-                    <a>Instagram Management</a>
+                  <Link href="/facebook-marketing">
+                    <a>Facebook Content Strategizing</a>
                   </Link>
                 </h3>
                 <p>
@@ -305,7 +305,7 @@ const BestServices = () => {
                   maecenas accumsan lacus vel facilisis.
                 </p>
 
-                <Link href="/service-details">
+                <Link href="/facebook-marketing">
                   <a className="read-more-btn">Read More</a>
                 </Link>
 
@@ -325,7 +325,7 @@ const BestServices = () => {
                 </div>
                 <h3>
                   <Link href="/service-details">
-                    <a>Tiktok/Snapchat Reels</a>
+                    <a>Instagram Advertising</a>
                   </Link>
                 </h3>
                 <p>
@@ -349,7 +349,7 @@ const BestServices = () => {
                 </div>
                 <h3>
                   <Link href="/service-details">
-                    <a>Custom Needs</a>
+                    <a>Instagram Account Management</a>
                   </Link>
                 </h3>
                 <p>
