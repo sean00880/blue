@@ -1,11 +1,11 @@
 .software-btn {
-  background-color: #88ff41;
+  background-color: #82aef8;
   border-radius: 5px;
   display: inline-block;
   padding: 12px 35px;
   -webkit-transition: all 0.6s ease;
   transition: all 0.6s ease;
-  border: 1px solid #88ff41;
+  border: 1px solid #82aef8;
   font-size: 16px;
   font-weight: 600;
   color: #fff;
@@ -61,7 +61,7 @@
 }
 
 .software-banner-content .sub-title {
-  color: #88ff41;
+  color: #82aef8;
   margin-bottom: 15px;
   display: block;
 }
@@ -95,8 +95,8 @@
 }
 
 .software-single-help-desk-box::before {
-  background: -webkit-gradient(linear, right bottom, left top, from(#88ff41), color-stop(#659947), color-stop(#6c946f), color-stop(#5ab775), to(#daffe6));
-  background: linear-gradient(to left top, #88ff41, #659947, #6c946f, #5ab775, #daffe6);
+  background: -webkit-gradient(linear, right bottom, left top, from(#82aef8), color-stop(#659947), color-stop(#6c946f), color-stop(#5ab775), to(#daffe6));
+  background: linear-gradient(45deg, #10286c, #0d297b);
   width: 0%;
   height: 3px;
   left: 0;
@@ -126,7 +126,7 @@
   position: relative;
   padding-right: 14px;
   display: inline-block;
-  color: #88ff41;
+  color: #82aef8;
   font-size: 15px;
   font-weight: 600;
 }
@@ -144,8 +144,8 @@
 
 /* Screenshots Area */
 .screenshots-area.bg-gradient {
-  background: -webkit-gradient(linear, right bottom, left top, from(#88ff41), color-stop(#659947), color-stop(#6c946f), color-stop(#5ab775), to(#daffe6)) !important;
-  background: linear-gradient(to left top, #88ff41, #659947, #6c946f, #5ab775, #daffe6) !important;
+  background: -webkit-gradient(linear, right bottom, left top, from(#82aef8), color-stop(#659947), color-stop(#6c946f), color-stop(#5ab775), to(#daffe6)) !important;
+  background: linear-gradient(45deg, #10286c, #0d297b) !important;
 }
 
 .screenshots-tabs .react-tabs__tab-list {
@@ -259,7 +259,7 @@
   transition: all 0.6s ease;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-  background-color: #88ff41;
+  background-color: #82aef8;
   color: #ffffff;
   display: inline-block;
   border-radius: 50%;
@@ -278,7 +278,7 @@
 }
 
 .software-overview-box .overview-content .overview-list li span a:hover {
-  color: #88ff41;
+  color: #82aef8;
 }
 
 .software-overview-box .overview-content .overview-list li span:hover i {
@@ -313,7 +313,7 @@
   text-align: center;
   position: absolute;
   border-radius: 50%;
-  color: #88ff41;
+  color: #82aef8;
   -webkit-transition: all 0.6s ease;
   transition: all 0.6s ease;
   background-color: #ffffff;
@@ -331,7 +331,7 @@
 }
 
 .software-funfacts-item h3 {
-  color: #88ff41;
+  color: #82aef8;
   margin-bottom: 5px;
   font-size: 38px;
 }
@@ -343,7 +343,7 @@
 }
 
 .software-funfacts-item:hover .icon {
-  background-color: #88ff41;
+  background-color: #82aef8;
   color: #ffffff;
 }
 
@@ -414,7 +414,7 @@
 }
 
 .software-pricing-box .features-list li i {
-  background-color: #88ff41;
+  background-color: #82aef8;
   -webkit-transition: all 0.6s ease;
   transition: all 0.6s ease;
   -webkit-transform: translateY(-50%);
@@ -867,7 +867,7 @@
     font-size: 30px;
   }
   .software-funfacts-item h3 {
-    color: #88ff41;
+    color: #82aef8;
     margin-bottom: 5px;
     font-size: 30px;
   }

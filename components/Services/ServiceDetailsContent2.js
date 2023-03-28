@@ -22,7 +22,7 @@ const ServiceDetailsContent = () => {
                 As a marketing agency, our Facebook marketing services are designed to help businesses increase their online visibility, engagement, and ultimately, their bottom line. We specialize in creating customized Facebook marketing strategies that align with our clients' unique needs and goals.
                 </p>
                 
-                <p>At Orange, we are committed to delivering exceptional Facebook marketing services that drive real business results. Our team of experts has years of experience in social media marketing and is dedicated to helping businesses succeed online.</p>
+                <p>At Blu, we are committed to delivering exceptional Facebook marketing services that drive real business results. Our team of experts has years of experience in social media marketing and is dedicated to helping businesses succeed online.</p>
                 <h3>Our Services:</h3>
                 <h4>Facebook page setup and optimization:</h4>
                 <p>We help businesses create and optimize their Facebook pages to ensure they are fully optimized for search and user engagement. This includes creating custom cover images, profile pictures, and optimizing page information.</p>

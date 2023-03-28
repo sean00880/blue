@@ -71,7 +71,7 @@ const ContactForm = () => {
                     I am available for freelancing work. Please connect with me
                     via phone: <a href="tel:+441372278462">+44 1372 278462</a>{" "}
                     or email:{" "}
-                    <a href="mailto:hello@pungent.com">hello@pungent.com</a>
+                    <a href="mailto:hello@pungent.com">hello@blu.com</a>
                   </p>
                 </div>
 

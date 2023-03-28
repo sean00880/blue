@@ -134,8 +134,8 @@ const Footer = () => {
                   </li>
                   <li>
                     <i className="fa-solid fa-envelope"></i>
-                    <a href="mailto:hello@pungent.com">hello@afilmjunkieproductions.com</a>
-                    <a href="mailto:support@pungent.com">support@afilmjunkieproductions.com</a>
+                    <a href="mailto:hello@blu.com">hello@blu.com</a>
+                    <a href="mailto:support@blu.com">support@blu.com</a>
                   </li>
                 </ul>
               </div>

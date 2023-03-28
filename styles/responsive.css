@@ -181,6 +181,8 @@
   .hero-banner .main-banner-content h1 {
     font-size: 30px;
     margin-top: 0;
+    color: #ff8212;
+    font-style: italic;
   }
   .hero-banner .main-banner-content p {
     margin-bottom: 15px;

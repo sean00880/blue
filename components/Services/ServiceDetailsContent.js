@@ -25,7 +25,7 @@ const ServiceDetailsContent = () => {
                 <p>
                 We understand that Twitter can be a powerful tool for businesses to connect with their audience, increase brand awareness, and drive conversions. Our team of experienced social media experts will work closely with you to create a tailored Twitter marketing strategy that aligns with your business objectives.
                 </p>
-                <p>At Orange Marketing Agency, we are dedicated to helping businesses achieve their marketing goals on Twitter. Contact us today to learn more about our Twitter marketing services and how we can help your business grow on social media.</p>
+                <p>At Blu Marketing Agency, we are dedicated to helping businesses achieve their marketing goals on Twitter. Contact us today to learn more about our Twitter marketing services and how we can help your business grow on social media.</p>
                 <h3>Our Services:</h3>
                 <h4>Strategy development:</h4>
                 <p>We start by understanding your business, target audience, and competition to create a comprehensive Twitter marketing strategy. This includes setting clear goals, determining the right messaging and tone, and identifying the best tactics for engaging with your audience.</p>

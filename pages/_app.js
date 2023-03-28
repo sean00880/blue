@@ -44,7 +44,7 @@ function MyApp({ Component, pageProps }) {
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>
-          Orange Marketing - High End Marketing Agency 
+          Blu Marketing - High End Marketing Agency 
         </title>
         
       </Head>

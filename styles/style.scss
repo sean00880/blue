@@ -45,10 +45,10 @@ This files table contents are outlined below >>>>>
 
 // Global Variable
 
-$main-color: #88ff41;
-$gradient-color: linear-gradient(to left top, #88ff41, #659947, #6c946f, #5ab775, #daffe6);
+$main-color: #82aef8;
+$gradient-color: linear-gradient(45deg, #10286c, #0d297b);
 $main-font-family: 'Abel', sans-serif;
-$heading-font-family: "Advent Pro", 'sans-serif';
+$heading-font-family: "Smooch Sans", 'sans-serif';
 $font-size: 15px;
 $black-color: #18181b;
 $paragraph-color: #646464;
@@ -1098,7 +1098,7 @@ Main Banner CSS
             opacity: 1;
             &.swiper-pagination-bullet-active {
                 background: $gradient-color;
-                border: 1px solid #88ff41;
+                border: 1px solid #82aef8;
             }
         }
     }
@@ -2152,7 +2152,7 @@ Case Studies CSS
             opacity: 1;
             &.swiper-pagination-bullet-active {
                 background: $gradient-color;
-                border: 1px solid #88ff41;
+                border: 1px solid #82aef8;
             }
         }
     }
@@ -2778,7 +2778,7 @@ Feedback CSS
             opacity: 1;
             &.swiper-pagination-bullet-active {
                 background: $gradient-color;
-                border: 1px solid #88ff41;
+                border: 1px solid #82aef8;
             }
         }
     }
@@ -4335,7 +4335,7 @@ Blog CSS
             opacity: 1;
             &.swiper-pagination-bullet-active {
                 background: $gradient-color;
-                border: 1px solid #88ff41;
+                border: 1px solid #82aef8;
             }
         }
     }
@@ -6163,7 +6163,7 @@ span.new {
             opacity: 1;
             &.swiper-pagination-bullet-active {
                 background: $gradient-color;
-                border: 1px solid #88ff41;
+                border: 1px solid #82aef8;
             }
         }
     }

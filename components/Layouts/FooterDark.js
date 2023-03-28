@@ -132,7 +132,7 @@ const FooterDark = () => {
                   </li>
                   <li className="pt-2">
                     <i className="fa-solid fa-envelope"></i>
-                    <a href="mailto:hello@pungent.com">hello@pungent.com</a>
+                    <a href="mailto:hello@blu.com">hello@blu.com</a>
                   </li>
                 </ul>
               </div>

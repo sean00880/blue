@@ -7,10 +7,9 @@ const PricingStyleThree = () => {
       <div className="pricing-area pt-100 pb-70 bg-f9f6f6" id="pricing">
         <div className="container">
           <div className="section-title">
-            <h2>Pick Your Budget</h2>
+            <h2>Packages</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Pick a package based on your requirements and budget
             </p>
           </div>
 
@@ -24,29 +23,29 @@ const PricingStyleThree = () => {
                 data-aos-delay="100"
               >
                 <div className="pricing-header">
-                  <h3>Private Session</h3>
+                  <h3>Basic Social Media Marketing</h3>
                 </div>
 
                 <div className="price">
-                  <sup>$</sup>0-99<sub>/ Session</sub>
+                  <sup>$</sup>0-499<sub>/ Month</sub>
                 </div>
 
                 <ul className="pricing-features">
                   <li>
                     <i className="fa-solid fa-circle-check"></i>
-                    Personal Videos
+                    Ad Creation [up to 2 social media accounts]
                   </li>
                   <li>
                     <i className="fa-solid fa-circle-check"></i>
-                    Tiktok/SnapChat Video Ads
+                    Account Management [up to 2 social media accounts]
                   </li>
                   <li>
                     <i className="fa-solid fa-circle-check"></i>
-                    Youtube Reel Videos
+                    Monthly Content Strategy [up to 2 social media accounts]
                   </li>
                   <li>
                     <i className="fa-solid fa-circle-check"></i>
-                    Personal Portraits
+                    Analysis and Recommendations [up to 2 social media accounts]
                   </li>
                 
                 </ul>
@@ -65,33 +64,34 @@ const PricingStyleThree = () => {
                 className="single-pricing-table"
                 data-aos="fade-up"
                 data-aos-duration="1200"
-                data-aos-delay="200"
+                data-aos-delay="100"
               >
                 <div className="pricing-header">
-                  <h3>Enterprise Session</h3>
+                  <h3>Basic Social Media Marketing</h3>
                 </div>
 
                 <div className="price">
-                  <sup>$</sup>100-299 <sub>/ Session</sub>
+                  <sup>$</sup>500-1000<sub>/ Month</sub>
                 </div>
 
                 <ul className="pricing-features">
                   <li>
                     <i className="fa-solid fa-circle-check"></i>
-                    Sports Videos
+                    Ad Creation  [up to 4 social media accounts]
                   </li>
                   <li>
                     <i className="fa-solid fa-circle-check"></i>
-                    Livestreaming
+                    Account Management [up to 4 social media accounts]
                   </li>
                   <li>
                     <i className="fa-solid fa-circle-check"></i>
-                    Professional Portraits
+                    Monthly Content Strategy  [up to 4 social media accounts]
                   </li>
                   <li>
                     <i className="fa-solid fa-circle-check"></i>
-                    Professional Headshots
+                    Analysis and Recommendations [up to 4 social media accounts]
                   </li>
+                
                 </ul>
 
                 <div className="btn-box">
@@ -108,37 +108,39 @@ const PricingStyleThree = () => {
                 className="single-pricing-table"
                 data-aos="fade-up"
                 data-aos-duration="1200"
-                data-aos-delay="300"
+                data-aos-delay="100"
               >
                 <div className="pricing-header">
-                  <h3>Industrial Session</h3>
+                  <h3>Basic Social Media Marketing</h3>
                 </div>
 
                 <div className="price">
-                  <sup>$</sup>299+<sub> / Session</sub>
+                  <sup>$</sup>1,000-1,499<sub>/ Month</sub>
                 </div>
 
                 <ul className="pricing-features">
-                <li>
+                  <li>
                     <i className="fa-solid fa-circle-check"></i>
-                    Corporate/Business Videos
+                    Ad Creation [Up to 4 social media accounts]
                   </li>
                   <li>
                     <i className="fa-solid fa-circle-check"></i>
-                    Event Videography
+                    Account Management [Up to 4 social media accounts]
                   </li>
                   <li>
                     <i className="fa-solid fa-circle-check"></i>
-                    TV Commercial Production
+                    Monthly Content Strategy [Up to 4 social media accounts]
                   </li>
                   <li>
                     <i className="fa-solid fa-circle-check"></i>
-                    Documentaries
+                    Analysis and Recommendations [Up to 4 social media accounts]
                   </li>
                   <li>
                     <i className="fa-solid fa-circle-check"></i>
-                    Crowdfunding
+                    One-On-One Training
                   </li>
+                  
+                
                 </ul>
 
                 <div className="btn-box">

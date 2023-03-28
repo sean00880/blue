@@ -14,7 +14,7 @@ const BestServices = () => {
             <div className="col-lg-5 p-0">
               <div className="services-inner">
                 <div className="services-section-title">
-                  <h2>Featured at <span>Orange</span>:</h2>
+                  <h2><span>Featured at Blu</span>:</h2>
                   <div className="bar"></div>
                   <p>Whether you're looking to increase your brand awareness, drive website traffic, generate leads, or boost your sales, we have the expertise and experience to create and execute a social media strategy tailored to your unique needs and objectives.
                     <br /><br />
@@ -159,8 +159,7 @@ const BestServices = () => {
           <div className="section-title">
             <h2>Services We Offer</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            We rovide a wide range of services to help businesses of all sizes grow their brand and increase their customer base. 
             </p>
           </div>
 
@@ -185,15 +184,14 @@ const BestServices = () => {
                   </Link>
                 </h3>
                 <p>
-                  Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
-                  maecenas accumsan lacus vel facilisis.
+                Blu's Twitter advertising service begins by identifying the user's target audience and goals for the ad campaign. Based on this information, Blu creates a custom ad campaign that is tailored to the user's needs. 
                 </p>
 
                 <Link href="/twitter-marketing">
                   <a className="read-more-btn">Read More</a>
                 </Link>
 
-                <div className="back-text">Ia</div>
+                
               </div>
                   </div>
                   <div className="col-lg-4 col-sm-6 mt-40">
@@ -207,15 +205,14 @@ const BestServices = () => {
                   </Link>
                 </h3>
                 <p>
-                  Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
-                  maecenas accumsan lacus vel facilisis.
+                The service includes a range of activities, such as content creation, scheduling, and publishing, as well as follower management, hashtag research, and analytics reporting. 
                 </p>
 
                 <Link href="/twitter-marketing">
                   <a className="read-more-btn">Read More</a>
                 </Link>
 
-                <div className="back-text">Ba</div>
+               
               </div>
                   </div>
                   <div className="col-lg-4 col-sm-6 mt-40">
@@ -229,15 +226,14 @@ const BestServices = () => {
                   </Link>
                 </h3>
                 <p>
-                  Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
-                  maecenas accumsan lacus vel facilisis.
+                With this service, Blu will work with clients to develop a comprehensive content strategy that aligns with their brand messaging and goals. This may include researching target audiences, identifying key influencers, developing a content calendar, and analyzing metrics to measure success. 
                 </p>
 
                 <Link href="/twitter-marketing">
                   <a className="read-more-btn">Read More</a>
                 </Link>
 
-                <div className="back-text">Ba</div>
+                
               </div>
                   </div>
                 </div>
@@ -256,15 +252,14 @@ const BestServices = () => {
                   </Link>
                 </h3>
                 <p>
-                  Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
-                  maecenas accumsan lacus vel facilisis.
+                Blu provides unique Facebook ad campaigns that can be modified to meet the specific requirements of each customer thanks to its staff of skilled digital marketing specialists.
                 </p>
 
                 <Link href="/facebook-marketing">
                   <a className="read-more-btn">Read More</a>
                 </Link>
 
-                <div className="back-text">Ia</div>
+                
               </div>
                   </div>
                   <div className="col-lg-4 col-sm-6 mt-40">
@@ -278,15 +273,14 @@ const BestServices = () => {
                   </Link>
                 </h3>
                 <p>
-                  Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
-                  maecenas accumsan lacus vel facilisis.
+                With this service, Blu will help you create and maintain a consistent brand image across your Facebook page, engage with your audience, and monitor your page's performance. 
                 </p>
 
                 <Link href="/facebook-marketing">
                   <a className="read-more-btn">Read More</a>
                 </Link>
 
-                <div className="back-text">Ia</div>
+                
               </div>
                   </div>
 
@@ -301,15 +295,14 @@ const BestServices = () => {
                   </Link>
                 </h3>
                 <p>
-                  Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
-                  maecenas accumsan lacus vel facilisis.
+                Blu's team of social media experts also provides ongoing support, including content creation, scheduling, and performance tracking to ensure that the client's Facebook page stays relevant and effective in achieving their social media goals.
                 </p>
 
                 <Link href="/facebook-marketing">
                   <a className="read-more-btn">Read More</a>
                 </Link>
 
-                <div className="back-text">Ba</div>
+               
               </div>
                   </div>
                   
@@ -329,15 +322,14 @@ const BestServices = () => {
                   </Link>
                 </h3>
                 <p>
-                  Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
-                  maecenas accumsan lacus vel facilisis.
+                Blu's Instagram Advertising service is a specialized marketing solution designed to help businesses effectively promote their products or services on the popular social media platform, Instagram.
                 </p>
 
                 <Link href="/service-details">
                   <a className="read-more-btn">Read More</a>
                 </Link>
 
-                <div className="back-text">Ia</div>
+                
               </div>
                   </div>
                   
@@ -353,15 +345,14 @@ const BestServices = () => {
                   </Link>
                 </h3>
                 <p>
-                  Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
-                  maecenas accumsan lacus vel facilisis.
+                We will create and manage your Instagram account, including developing your brand identity, creating engaging content, and managing your followers.
                 </p>
 
                 <Link href="/service-details">
                   <a className="read-more-btn">Read More</a>
                 </Link>
 
-                <div className="back-text">Id</div>
+                
               </div>
                   </div>
                 </div>
@@ -388,7 +379,7 @@ const BestServices = () => {
                   <a className="read-more-btn">Read More</a>
                 </Link>
 
-                <div className="back-text">Ia</div>
+               
               </div>
                   </div>
 
@@ -411,7 +402,7 @@ const BestServices = () => {
                   <a className="read-more-btn">Read More</a>
                 </Link>
 
-                <div className="back-text">Ba</div>
+              
               </div>
                   </div>
 
@@ -434,7 +425,7 @@ const BestServices = () => {
                   <a className="read-more-btn">Read More</a>
                 </Link>
 
-                <div className="back-text">Id</div>
+               
               </div>
                   </div>
                 </div>

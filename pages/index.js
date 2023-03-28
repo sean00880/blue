@@ -17,6 +17,8 @@ import Newsletter from "../components/Common/Newsletter";
 import CtaAreaTwo from "../components/Common/CtaAreaTwo";
 import Footer from "../components/Layouts/Footer";
 import Faq from "../components/HomePages/SoftwareStartup/Faq";
+import Contact from "../components/Contact/ContactForm";
+
 
 const StartupAgency2 = () => {
   return (
@@ -34,12 +36,7 @@ const StartupAgency2 = () => {
       <Feedback />
 
       <Faq/>
-
-    
-
-        <LatestNews />
-      <CtaAreaTwo />
-
+      <Contact/>
       <Footer />
     </>
   );

@@ -31,7 +31,7 @@ const NavbarThree = () => {
           <div className="container">
             <Link href="/">
               <a className="navbar-brand">
-                <img src="/images/filmlogo2.png" alt="logo" style={{"maxWidth":"150px", "borderRadius":"1vh"}} />
+                <img src="/images/filmlogo2.png" alt="logo" style={{"maxWidth":"100px", "borderRadius":"1vh","border":"1px solid white"}} />
               </a>
             </Link>
 

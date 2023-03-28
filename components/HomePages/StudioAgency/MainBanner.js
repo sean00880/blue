@@ -19,13 +19,13 @@ const MainBanner = () => {
         <div className="d-table">
           <div className="d-table-cell">
             <div className="container">
-              <div className="row align-items-center">
+              <div className="row align-items-center flex-column">
                 <div className="col-lg-8">
-                  <div className="main-banner-content">
-                    <h1>Orange Marketing: Your Partner for Innovative Marketing Solutions</h1>
+                  <div className="main-banner-content text-center">
+                    <h1><strong>BLU</strong><hr />Your Partner for Innovative Marketing Solutions</h1>
 
                     <p>
-                    At Orange, we believe that social media is one of the most powerful tools for businesses to connect with their audience and grow their brand. Our team of experts is dedicated to helping you leverage the power of social media to achieve your business goals.
+                    At Blu, we believe that social media is one of the most powerful tools for businesses to connect with their audience and grow their brand. Our team of experts is dedicated to helping you leverage the power of social media to achieve your business goals.
                     </p>
 
                     <Link href="/contact">
